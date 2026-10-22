@@ -1,0 +1,76 @@
+{
+  "brand": {
+    "name": "Impulso Cero Academy",
+    "logo": "/assets/brand-logo-white.png",
+    "footerLogo": "/assets/brand-logo-blue.png",
+    "whatsappPhone": "51905584657"
+  },
+  "announcement": {
+    "eyebrow": "Talleres gratuitos · todos los viernes",
+    "title": "Tu idea merece despegar.",
+    "description": "Aprende, resuelve tus dudas y encuentra el siguiente paso para hacer crecer tu negocio junto a Impulso Cero.",
+    "button": "Descubrir las charlas"
+  },
+  "hero": {
+    "titleLine1": "Tu idea,",
+    "titleLine2": "nuestro impulso.",
+    "description": "Formación práctica, herramientas estratégicas y acompañamiento para que conviertas tu idea en un negocio con dirección y proyección.",
+    "portrait": "/assets/specialist-portrait.png",
+    "primaryButton": "Reservar cupo por WhatsApp",
+    "secondaryButton": "Ver programas"
+  },
+  "essence": {
+    "title": "Una academia que te acompaña desde el punto cero.",
+    "description": "Nacemos para ayudarte a avanzar con más claridad: conocimientos, herramientas y experiencias para emprender con propósito.",
+    "missionTitle": "Misión",
+    "mission": "Impulsar a emprendedores mediante formación práctica, herramientas estratégicas y acompañamiento que les permita transformar sus ideas en proyectos sostenibles.",
+    "visionTitle": "Visión",
+    "vision": "Ser una academia referente en formación para emprendedores, reconocida por impulsar ideas, desarrollar capacidades y generar oportunidades de crecimiento."
+  },
+  "values": [
+    { "title": "Cercana", "description": "Se comunica de forma humana, clara y accesible." },
+    { "title": "Innovadora", "description": "Promueve nuevas ideas y soluciones actuales." },
+    { "title": "Dinámica", "description": "Transmite energía, movimiento y avance constante." },
+    { "title": "Confiable", "description": "Proyecta seguridad, profesionalismo y consistencia." }
+  ],
+  "programs": [
+    {
+      "kicker": "CRECIMIENTO · 6 SEMANAS",
+      "title": "Programa Crecimiento",
+      "description": "De la idea a un negocio rentable y ordenado.",
+      "benefits": ["Diagnóstico real de tu negocio", "Plan de crecimiento paso a paso", "Sesiones en vivo con expertos", "Plantillas y herramientas listas", "Comunidad de emprendedores"],
+      "format": "Grupal en vivo"
+    },
+    {
+      "kicker": "IA APLICADA · 4 SEMANAS",
+      "title": "Automatización con IA",
+      "description": "Pon la inteligencia artificial a trabajar por ti.",
+      "benefits": ["Bot de WhatsApp para ventas y atención", "Automatización de tareas repetitivas", "IA para contenido y marketing", "Implementación guiada en tu negocio"],
+      "format": "100% práctico"
+    },
+    {
+      "kicker": "PROTECCIÓN · A MEDIDA",
+      "title": "Blindaje Legal & Financiero",
+      "description": "Protege y escala con acompañamiento 1 a 1.",
+      "benefits": ["Asesoría legal con Égida Jurídica", "Orden financiero con Finacorp", "Contratos y protección laboral", "Mentoría personalizada"],
+      "format": "Atención individual"
+    }
+  ],
+  "talks": [
+    { "number": "01", "day": "23", "month": "OCT", "time": "6:30 – 7:30 p. m.", "date": "Viernes 23 de octubre · 6:30 p. m.", "title": "¿Qué hace que un negocio crezca o desaparezca?", "description": "Identifica las decisiones y hábitos que ayudan a que un negocio avance de forma sostenible." },
+    { "number": "02", "day": "30", "month": "OCT", "time": "6:30 – 7:30 p. m.", "date": "Viernes 30 de octubre · 6:30 p. m.", "title": "¿Por qué tu negocio no crece?", "description": "Encuentra los frenos más comunes de un negocio y llévate ideas prácticas para superarlos." },
+    { "number": "03", "day": "06", "month": "NOV", "time": "6:30 – 7:30 p. m.", "date": "Viernes 6 de noviembre · 6:30 p. m.", "title": "¿La inteligencia artificial puede trabajar por ti?", "description": "Descubre formas simples de usar inteligencia artificial para ahorrar tiempo y mejorar tu negocio." },
+    { "number": "04", "day": "13", "month": "NOV", "time": "6:30 – 7:30 p. m.", "date": "Viernes 13 de noviembre · 6:30 p. m.", "title": "¿Tu trabajador puede demandarte?", "description": "Conoce tus obligaciones laborales y aprende a prevenir problemas antes de que ocurran." }
+  ],
+  "route": [
+    { "title": "Punto cero", "description": "Llegas con una idea o un negocio que quieres ordenar. Aquí empieza todo." },
+    { "title": "Formación práctica", "description": "Talleres gratuitos de una hora, casos reales y herramientas que puedes aplicar desde hoy." },
+    { "title": "Acompañamiento", "description": "Mentorías y programas para tomar decisiones con claridad y hacer crecer tu proyecto." },
+    { "title": "¡Despegue!", "description": "Tu negocio avanza con propósito, estructura y una visión clara de lo que sigue." }
+  ],
+  "contact": {
+    "titleLine1": "Tu cuenta regresiva",
+    "titleLine2": "empieza hoy.",
+    "description": "Déjanos tus datos y te confirmamos tu cupo por WhatsApp en minutos. Los espacios por sesión son limitados."
+  }
+}
