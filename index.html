@@ -48,6 +48,57 @@ main>.hero{position:relative;isolation:isolate;display:grid;grid-template-column
 /* El contenido permanece visible si JS no carga. */
 @media(prefers-reduced-motion:no-preference){.rv.will-reveal{opacity:0;transform:translateY(18px);transition:opacity .6s var(--ease),transform .6s var(--ease)}.rv.will-reveal.is-revealed{opacity:1;transform:none}.talk-feature.is-swapping{animation:detail-in .3s var(--ease)}@keyframes detail-in{from{opacity:.3;transform:translateY(8px)}to{opacity:1;transform:none}}}
 
+/* ===== MEJORAS VISUALES (solo estilo). Capa añadida: no toca HTML, JS ni atributos data-cms. =====
+   Va antes de los @media del archivo para que el responsive existente siga mandando en móvil/tablet. */
+::selection{background:var(--naranja);color:#202540}
+body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+h1,h2,h3{font-weight:700}
+.hero-title{font-weight:700;letter-spacing:-.05em}
+h2{letter-spacing:-.05em}
+.eyebrow{padding:.5rem 1rem .5rem .9rem;border-radius:99px;background:#d7813318;border:1px solid #d7813330}
+.hero-eyebrow,.talks-heading .eyebrow,.brands-heading .eyebrow{background:#ffffff12;border-color:#ffffff22}
+.cta-copy .eyebrow{background:#ffffff4d;border-color:#ffffff66}
+.btn{background:linear-gradient(135deg,#e5964a,#d78133);box-shadow:0 8px 22px #d7813340,inset 0 1px 0 #ffffff40}
+.btn.ghost{background:transparent;box-shadow:none}
+.btn:hover{box-shadow:0 12px 28px #d7813355}
+.nav{background:linear-gradient(180deg,#2f3563,#2c3159);box-shadow:0 1px 0 #ffffff14}
+.nav.solid{background:#2c3159f2;backdrop-filter:blur(14px)}
+.logo img{transition:transform .25s var(--ease)}.logo:hover img{transform:scale(1.03)}
+main>.hero{background:radial-gradient(ellipse 55% 70% at 90% 88%,#d781332e,transparent 62%),radial-gradient(ellipse 45% 55% at 8% 0%,#4a53a038,transparent 60%),linear-gradient(160deg,#30366a,#2c3159 45%,#232848)}
+.orbits{opacity:.34}
+.lead{color:#dcdeea}
+.stats b{background:linear-gradient(180deg,#fbe0cb,#f6c29f);-webkit-background-clip:text;background-clip:text;color:transparent}
+.portrait-frame img{box-shadow:0 34px 80px #0a0e2470,0 0 0 6px #ffffff10}
+.visual-note{border:1px solid #fff;box-shadow:0 22px 54px #0c102144}
+.marq{background:linear-gradient(90deg,#d78133,#e8994d 50%,#d78133);font-size:.72rem;letter-spacing:.22em;padding:1.15rem 0;box-shadow:0 -1px 0 #ffffff30 inset}
+.duo{border-color:#d9d6cf}
+.duo h3:before{content:"";display:block;width:38px;height:3px;margin-bottom:1.1rem;border-radius:3px;background:var(--naranja)}
+.card{padding:clamp(1.1rem,2.2vw,1.9rem);border:1px solid #e4e1da;border-top:3px solid var(--naranja);border-radius:20px;background:#fff;box-shadow:0 10px 30px #2c315908;transition:transform .25s var(--ease),box-shadow .25s}
+.card:hover{transform:translateY(-4px);box-shadow:0 18px 40px #2c315914}
+.program-card{border-radius:28px;border-color:#e0e2ea;box-shadow:0 10px 30px #2c31590a}
+.program-card:hover{box-shadow:0 22px 50px #2c315918}
+.program-card.featured{background:linear-gradient(160deg,#383f74,#2c3159 55%,#22274a);box-shadow:0 28px 64px #2c315945}
+.program-icon{width:52px;height:52px;border-radius:16px}
+.program-link{transition:transform .2s,background .2s,border-color .2s}.program-link:hover{transform:translateX(3px)}
+.talks-section{background:radial-gradient(circle at 88% 0%,#d7813326,transparent 46%),radial-gradient(circle at 0% 100%,#4a53a02e,transparent 50%),var(--azul)}
+.talk-feature{background:linear-gradient(150deg,#fad6b8,#f6c29f 60%,#f1b58a);border-radius:28px;box-shadow:0 34px 80px #0a0e2448}
+.talk-date-box{box-shadow:0 10px 24px #2c315948}
+.talk-option{transition:background .2s,border-color .2s}.talk-option:hover{border-left-color:#d7813388}
+.talk-reserve{transition:background .2s,transform .2s}.talk-reserve:hover{transform:translateY(-2px)}
+.brand-card{border-radius:22px;background:#ffffff08}
+.route-card{border-radius:22px;box-shadow:0 8px 26px #2c315908}
+.route-number{color:#b3b7c8}.st.on .route-number{color:var(--naranja)}
+.rocket-node{box-shadow:0 0 0 7px #d7813322,0 10px 24px #d7813355}
+.cta-section{background:linear-gradient(135deg,#fad0ae,#f6c29f 55%,#f0b389)}
+.reserve-form{border:1px solid #fff;box-shadow:0 34px 76px #2c315928}
+.reserve-form input[type=text],.reserve-form select{transition:border-color .2s,box-shadow .2s}
+.reserve-form input[type=text]:focus,.reserve-form select:focus{outline:0;border-color:var(--naranja);box-shadow:0 0 0 4px #d7813330}
+.stage-options span{transition:background .2s,border-color .2s,color .2s}
+.reserve-submit{box-shadow:0 12px 26px #2c315940;transition:background .2s,transform .2s}.reserve-submit:hover{transform:translateY(-2px)}
+footer{background:linear-gradient(180deg,#2c3159,#222747);border-top:3px solid var(--naranja)}
+.flyer-card{border-radius:28px}
+@media(min-width:901px){.nav ul a{position:relative}.nav ul a:after{content:"";position:absolute;left:0;right:0;bottom:.3rem;height:2px;border-radius:2px;background:var(--naranja);transform:scaleX(0);transform-origin:left;transition:transform .25s var(--ease)}.nav ul a:hover:after,.nav ul a[aria-current]:after{transform:scaleX(1)}}
+
 [hidden]{display:none!important}.talks-layout.is-empty{grid-template-columns:1fr}section{scroll-margin-top:16px}.brand-wordmark,.program-card h3,.talk-title{overflow-wrap:anywhere}
 @media(min-width:1600px){.nav-inner{max-width:1440px;padding-inline:0}}
 @media(max-width:1100px){.nav-inner{gap:1.4rem}.nav ul{gap:1rem}.nav ul a{font-size:.72rem}.nav .btn{display:none}main>.hero{gap:2rem;min-height:740px}.hero-title{font-size:clamp(3.7rem,7vw,5.9rem)}.hero-visual{max-width:300px}.program-grid{gap:1rem}.program-card{padding:1.5rem}.footer-main{grid-template-columns:1fr 1fr;gap:2rem}.talks-layout{gap:1.25rem}}
